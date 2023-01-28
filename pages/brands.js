@@ -1,5 +1,5 @@
 import PageDetails from "../Components/Utilites/PageDetails";
-import brandsImage from "../public/assets/projects/brandsClubProject.png";
+import brandsImage from "../public/assets/projects/brandsclub.png";
 export default function brands() {
   return (
     <>

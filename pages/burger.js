@@ -1,5 +1,5 @@
 import PageDetails from "../Components/Utilites/PageDetails";
-import burgerImage from "../public/assets/projects/burgerProject-2.png";
+import burgerImage from "../public/assets/projects/doom.png"
 export default function burger() {
   return (
     <>

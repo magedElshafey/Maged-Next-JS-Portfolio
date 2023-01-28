@@ -2,8 +2,8 @@ import React, { useEffect, useRef } from "react";
 import Title from "../Utilites/Title";
 import SubTitle from "../Utilites/SubTitle";
 import ProjectItems from "./ProjectItems";
-import buerger from "../../public/assets/projects/burgerProject-2.png";
-import brandsClub from "../../public/assets/projects/brandsClubProject.png";
+import buerger from "../../public/assets/projects/doom.png";
+import brandsClub from "../../public/assets/projects/brandsclub.png";
 import trips from "../../public/assets/projects/trips.png";
 const Projects = () => {
   const el = useRef(null);
@@ -20,33 +20,36 @@ const Projects = () => {
     };
   }, []);
   return (
-    <div id="projects" className="py-12 max-w-[1640px] mx-auto p-4">
+    <div
+      id='projects'
+      className='py-12 max-w-[1640px] mx-auto p-4'
+    >
       <Title
-        title="projects"
-        style="text-blue-600 uppercase tracking-widest text-2xl"
+        title='projects'
+        style='text-blue-600 uppercase tracking-widest text-2xl'
       />
       <SubTitle title="what i've built" />
       <div
         ref={el}
-        className="notScrollProject grid grid-cols-1 md:grid-cols-3 gap-8"
+        className='notScrollProject grid grid-cols-1 md:grid-cols-3 gap-8'
       >
         <ProjectItems
           img={buerger}
-          title="Doom"
-          subTitle="Landing Page"
-          referTo="/burger"
+          title='Doom'
+          subTitle='Landing Page'
+          referTo='/burger'
         />
         <ProjectItems
           img={brandsClub}
-          title="Brands Club"
-          subTitle="E-commerce"
-          referTo="/brands"
+          title='Brands Club'
+          subTitle='E-commerce'
+          referTo='/brands'
         />
         <ProjectItems
           img={trips}
-          title="Beaches "
-          subTitle="Landing Page"
-          referTo="/trips"
+          title='Beaches '
+          subTitle='Landing Page'
+          referTo='/trips'
         />
       </div>
     </div>
