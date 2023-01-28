@@ -2,9 +2,9 @@ import React, { useEffect, useRef } from "react";
 import Title from "../Utilites/Title";
 import SubTitle from "../Utilites/SubTitle";
 import ProjectItems from "./ProjectItems";
-import buerger from "../../public/assets/projects/burgerProject-2.PNG";
-import brandsClub from "../../public/assets/projects/brandsClubProject.PNG";
-import trips from "../../public/assets/projects/trips.PNG";
+import buerger from "../../public/assets/projects/burgerProject-2.png";
+import brandsClub from "../../public/assets/projects/brandsClubProject.png";
+import trips from "../../public/assets/projects/trips.png";
 const Projects = () => {
   const el = useRef(null);
   useEffect(() => {

@@ -1,5 +1,5 @@
 import PageDetails from "../Components/Utilites/PageDetails";
-import tripsPhoto from "../public/assets/projects/trips.PNG";
+import tripsPhoto from "../public/assets/projects/trips.png";
 export default function trips() {
   return (
     <PageDetails
